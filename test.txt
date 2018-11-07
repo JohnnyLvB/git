@@ -1,2 +1,4 @@
 这个文本文件是dev分支的
 当提交merge之后，master分支才能看到
+
+Creating a new branch is quick AND simple.
