@@ -13,6 +13,11 @@ git reset --hard id   ----->  回退到历史的某个版本，commitid 可以�
 git checkout -- file  ----->  将文件在工作区的修改全部撤销（两种情况：1、文件还没有添加到暂存区 2、文件已经添加到暂存区，又做了修改）
 git reset HEAD <file> ----->  可以把暂存区的修改撤销掉（unstage），重新放回工作区,然后再通过上一条命令可以将其撤销
 git rm <file>         ----->  删除文件
+git branch dev        ----->  创建分支
+git checkout dev      ----->  切换到dev分支
+git checkout -b dev   ----->  创建dev分支，并切换到dev分支（合并前两部操作）
+git branch            ----->  查看当前分支（命令会列出所有分支，当前分支前面会标一个*号）
+
 
 理解工作区 和 暂存区
 通过 git add file 将file提交到的是暂存区
