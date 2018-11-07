@@ -17,16 +17,13 @@ git branch dev        ----->  创建分支
 git checkout dev      ----->  切换到dev分支
 git checkout -b dev   ----->  创建dev分支，并切换到dev分支（合并前两部操作）
 git branch            ----->  查看当前分支（命令会列出所有分支，当前分支前面会标一个*号）
-<<<<<<< HEAD
 git merge <branch>    ----->  合并指定分支到当前分支
 git branch -d <branch> ---->  删除某个分支
 
-=======
 git stash             ----->  把当前工作区暂时“储藏”起来
 git stash list        ----->  查看被暂存的工作区
 git stash apply       ----->  恢复被暂存的工作区（但是stash里的内容不会被删除，使用 git stash drop 来删除）
 git stash pop         ----->  恢复被暂存的工作区并删除
->>>>>>> dev
 
 
 理解工作区 和 暂存区
