@@ -2,3 +2,5 @@
 当提交merge之后，master分支才能看到
 
 Creating a new branch is quick AND simple in master.
+
+bug101 fixed
