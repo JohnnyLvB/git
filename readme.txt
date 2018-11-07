@@ -32,6 +32,13 @@ git push origin master----->  将本地提交推送到远程master分支
 git push origin dev   ----->  将本地提交推送到远程dev分支
 git checkout -b dev origin/dev  创建一个本地dev分支并与远程origin仓库下的dev分支关联
 
+git tag <tagname>     ----->  用于新建一个标签，也可以指定一个commitid（git tag <tagname> 78d1ed656ffe）
+git tag               ----->  查看所有标签
+git tag -a <tagname> -m "blablabla..."  创建带有说明的标签
+git show <tagname>    ----->  查看某标签下的信息描述
+eg: git tag V1.0
+
+
 
 理解工作区 和 暂存区
 通过 git add file 将file提交到的是暂存区
