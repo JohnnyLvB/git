@@ -1,14 +1,11 @@
 这个文本文件是dev分支的
 当提交merge之后，master分支才能看到
 
-<<<<<<< HEAD
 Creating a new branch is quick AND simple in master.
 
 bug101 fixed
-=======
 dev 分支的数据
 
 dev fenzhi 2
 
 test git stash
->>>>>>> dev

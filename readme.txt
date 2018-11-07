@@ -19,6 +19,7 @@ git checkout -b dev   ----->  创建dev分支，并切换到dev分支（合并�
 git branch            ----->  查看当前分支（命令会列出所有分支，当前分支前面会标一个*号）
 git merge <branch>    ----->  合并指定分支到当前分支
 git branch -d <branch> ---->  删除某个分支
+git branch -D <branch> ---->  强行删除某个分支（当某个分支还没有和其他分支合并，此时不能直接删除，若要强行删除，使用此命令）
 
 git stash             ----->  把当前工作区暂时“储藏”起来
 git stash list        ----->  查看被暂存的工作区
