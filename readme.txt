@@ -18,6 +18,7 @@ git rm <file>         ----->  删除文件
 通过 git add file 将file提交到的是暂存区
 再通过 git commit -m 'desc' 则将file从暂存区提交到分支
 
-test1
-
-error line
+远程仓库使用
+1、关联一个远程库 git remote add origin git@server-name:path/repo-name.git
+2、第一次推送master分支 git push -u origin master
+3、后续推送 git push origin master
