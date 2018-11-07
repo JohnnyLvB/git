@@ -30,3 +30,8 @@ git branch -d <branch> ---->  删除某个分支
 1、关联一个远程库 git remote add origin git@server-name:path/repo-name.git
 2、第一次推送master分支 git push -u origin master
 3、后续推送 git push origin master
+
+
+通常，合并分支时，如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息。
+如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+git merge --no-ff -m "desc" <branch>
